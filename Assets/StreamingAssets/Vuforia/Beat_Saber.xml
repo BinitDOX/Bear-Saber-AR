@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="world" size="17.799999 25.428570"/>
+        <ImageTarget name="saber_blu.Top" size="5.850000 3.902822"/>
+        <ImageTarget name="saber_blu.Left" size="3.900000 7.994577"/>
+        <ImageTarget name="saber_blu.Front" size="5.850000 8.000361"/>
+        <ImageTarget name="saber_blu.Right" size="3.900000 7.994577"/>
+        <ImageTarget name="saber_blu.Bottom" size="5.850000 3.902822"/>
+        <ImageTarget name="saber_blu.Back" size="5.850000 8.000361"/>
+        <MultiTarget name="saber_blu">
+            <Part name="saber_blu.Left" translation="-2.924999952316284 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="saber_blu.Right" translation="2.924999952316284 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="saber_blu.Front" translation="0 0 1.9500000476837158" rotation="AD: 1 0 0 0"/>
+            <Part name="saber_blu.Back" translation="0 0 -1.9500000476837158" rotation="AD: 0 1 0 180"/>
+            <Part name="saber_blu.Top" translation="0 4.0 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="saber_blu.Bottom" translation="0 -4.0 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
